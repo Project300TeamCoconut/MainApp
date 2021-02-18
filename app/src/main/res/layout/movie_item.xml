@@ -47,14 +47,25 @@
         android:id="@+id/imageView2"
         android:layout_width="104dp"
         android:layout_height="97dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="148dp"
         android:clickable="true"
         android:onClick="doSearch"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/images"
         tools:ignore="MissingConstraints" />
 
-
+    <SearchView
+        android:layout_width="167dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
